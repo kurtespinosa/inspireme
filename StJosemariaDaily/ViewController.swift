@@ -15,7 +15,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     var list = [String] ()
+    var maxChar = 290
+    var minChar = 5
     @IBOutlet weak var text: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,20 +34,15 @@ class ViewController: UIViewController {
             //source+1 for books 1 to 3
             thepoint = retrievePoint(source: String(source+1), point: String(point))
             print("len", thepoint.characters.count)
-        } while (thepoint.characters.count > 300 || thepoint.characters.count < 5)
+        } while (thepoint.characters.count > maxChar || thepoint.characters.count < minChar)
         self.text.text = thepoint
     }
     
     @IBAction func refreshPressed(_ sender: Any) {
         generateNew()
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
-    @IBAction func sharePressed(_ sender: AnyObject) {
+    
+    @IBAction func sharePressed(_ sender: Any) {
         let saying: String!
         saying = "\"" + self.text.text! + "\" - St. Josemaria #inspireme"
         let activityVC = UIActivityViewController(activityItems: [saying], applicationActivities: nil)
@@ -52,6 +50,13 @@ class ViewController: UIViewController {
         activityVC.popoverPresentationController?.sourceView = self.view
         self.present(activityVC, animated: true, completion: nil)
     }
+
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
     
     func  getRandomNumber() -> (Int, Int) {
         /*
@@ -132,6 +137,7 @@ class ViewController: UIViewController {
         return thesaying
 
     }
+    
     
     func loadFile(){
         if let filepath = Bundle.main.path(forResource: "sjd", ofType: "txt")

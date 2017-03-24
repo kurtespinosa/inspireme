@@ -7,6 +7,7 @@
 //
 /*
 TODO:
+ - add google ads: http://www.appcoda.com/google-admob-ios-swift/
  - format em dash
  - new one every viewappear?
  */

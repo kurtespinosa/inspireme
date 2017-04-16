@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45309A501E99AD350058F198 /* quickaction_icon_share_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45309A4E1E99AD350058F198 /* quickaction_icon_share_2x.png */; };
+		45309A511E99AD350058F198 /* refresh_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45309A4F1E99AD350058F198 /* refresh_2x.png */; };
 		45560EA61E64E6D000125C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45560EA51E64E6D000125C82 /* AppDelegate.swift */; };
 		45560EA81E64E6D000125C82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45560EA71E64E6D000125C82 /* ViewController.swift */; };
 		45560EAB1E64E6D000125C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45560EA91E64E6D000125C82 /* Main.storyboard */; };
@@ -14,13 +16,13 @@
 		45560EB01E64E6D000125C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45560EAF1E64E6D000125C82 /* Assets.xcassets */; };
 		45560EB31E64E6D000125C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45560EB11E64E6D000125C82 /* LaunchScreen.storyboard */; };
 		45560EBB1E6772B100125C82 /* sjd.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45560EBA1E6772B100125C82 /* sjd.txt */; };
-		458A3B3C1E85CC8400225CED /* quickaction_icon_love_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 458A3B391E85CC8400225CED /* quickaction_icon_love_2x.png */; };
-		458A3B3D1E85CC8400225CED /* refresh_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 458A3B3A1E85CC8400225CED /* refresh_2x.png */; };
-		458A3B401E85CF2300225CED /* quickaction_icon_share_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 458A3B3F1E85CF2300225CED /* quickaction_icon_share_2x.png */; };
-		458A3B421E85DA1300225CED /* Info-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 458A3B411E85DA1300225CED /* Info-50.png */; };
+		5DCFEB9ABAE168674DBF9D55 /* libPods-StJosemariaDaily.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA348BB4F913B9AD8FBBE4F2 /* libPods-StJosemariaDaily.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43F919FDD01B4A24DBA1839A /* Pods-StJosemariaDaily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StJosemariaDaily.release.xcconfig"; path = "Pods/Target Support Files/Pods-StJosemariaDaily/Pods-StJosemariaDaily.release.xcconfig"; sourceTree = "<group>"; };
+		45309A4E1E99AD350058F198 /* quickaction_icon_share_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quickaction_icon_share_2x.png; path = ../../../../../../../../Downloads/quickaction_icon_share_2x.png; sourceTree = "<group>"; };
+		45309A4F1E99AD350058F198 /* refresh_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh_2x.png; path = ../../../../../../../../Downloads/refresh_2x.png; sourceTree = "<group>"; };
 		45560EA21E64E6D000125C82 /* StJosemariaDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StJosemariaDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45560EA51E64E6D000125C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45560EA71E64E6D000125C82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,10 +32,8 @@
 		45560EB21E64E6D000125C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45560EB41E64E6D000125C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45560EBA1E6772B100125C82 /* sjd.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sjd.txt; sourceTree = "<group>"; };
-		458A3B391E85CC8400225CED /* quickaction_icon_love_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quickaction_icon_love_2x.png; sourceTree = "<group>"; };
-		458A3B3A1E85CC8400225CED /* refresh_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh_2x.png; sourceTree = "<group>"; };
-		458A3B3F1E85CF2300225CED /* quickaction_icon_share_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quickaction_icon_share_2x.png; sourceTree = "<group>"; };
-		458A3B411E85DA1300225CED /* Info-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info-50.png"; sourceTree = "<group>"; };
+		81352628EB04512A799DA683 /* Pods-StJosemariaDaily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StJosemariaDaily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StJosemariaDaily/Pods-StJosemariaDaily.debug.xcconfig"; sourceTree = "<group>"; };
+		DA348BB4F913B9AD8FBBE4F2 /* libPods-StJosemariaDaily.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StJosemariaDaily.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,21 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DCFEB9ABAE168674DBF9D55 /* libPods-StJosemariaDaily.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11643889982090419DCF115E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81352628EB04512A799DA683 /* Pods-StJosemariaDaily.debug.xcconfig */,
+				43F919FDD01B4A24DBA1839A /* Pods-StJosemariaDaily.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		45560E991E64E6D000125C82 = {
 			isa = PBXGroup;
 			children = (
-				458A3B411E85DA1300225CED /* Info-50.png */,
-				458A3B3F1E85CF2300225CED /* quickaction_icon_share_2x.png */,
-				458A3B391E85CC8400225CED /* quickaction_icon_love_2x.png */,
-				458A3B3A1E85CC8400225CED /* refresh_2x.png */,
 				45560EA41E64E6D000125C82 /* StJosemariaDaily */,
 				45560EA31E64E6D000125C82 /* Products */,
+				11643889982090419DCF115E /* Pods */,
+				D87BEC4675441091C334EB73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +78,8 @@
 		45560EA41E64E6D000125C82 /* StJosemariaDaily */ = {
 			isa = PBXGroup;
 			children = (
+				45309A4E1E99AD350058F198 /* quickaction_icon_share_2x.png */,
+				45309A4F1E99AD350058F198 /* refresh_2x.png */,
 				45560EA51E64E6D000125C82 /* AppDelegate.swift */,
 				45560EA71E64E6D000125C82 /* ViewController.swift */,
 				45560EA91E64E6D000125C82 /* Main.storyboard */,
@@ -82,6 +92,14 @@
 			path = StJosemariaDaily;
 			sourceTree = "<group>";
 		};
+		D87BEC4675441091C334EB73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA348BB4F913B9AD8FBBE4F2 /* libPods-StJosemariaDaily.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45560EB71E64E6D000125C82 /* Build configuration list for PBXNativeTarget "StJosemariaDaily" */;
 			buildPhases = (
+				6B75BD5005D8C89C5A8E42FD /* [CP] Check Pods Manifest.lock */,
 				45560E9E1E64E6D000125C82 /* Sources */,
 				45560E9F1E64E6D000125C82 /* Frameworks */,
 				45560EA01E64E6D000125C82 /* Resources */,
+				91D22AA2E788EBBA4606CD03 /* [CP] Embed Pods Frameworks */,
+				F919D0281547618FCBDA0007 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -114,7 +135,7 @@
 				TargetAttributes = {
 					45560EA11E64E6D000125C82 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = U2S8UYC43S;
+						DevelopmentTeam = Z74NJKY2E5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -143,17 +164,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				45560EB31E64E6D000125C82 /* LaunchScreen.storyboard in Resources */,
-				458A3B3D1E85CC8400225CED /* refresh_2x.png in Resources */,
+				45309A511E99AD350058F198 /* refresh_2x.png in Resources */,
 				45560EB01E64E6D000125C82 /* Assets.xcassets in Resources */,
-				458A3B401E85CF2300225CED /* quickaction_icon_share_2x.png in Resources */,
-				458A3B421E85DA1300225CED /* Info-50.png in Resources */,
+				45309A501E99AD350058F198 /* quickaction_icon_share_2x.png in Resources */,
 				45560EBB1E6772B100125C82 /* sjd.txt in Resources */,
 				45560EAB1E64E6D000125C82 /* Main.storyboard in Resources */,
-				458A3B3C1E85CC8400225CED /* quickaction_icon_love_2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B75BD5005D8C89C5A8E42FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91D22AA2E788EBBA4606CD03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StJosemariaDaily/Pods-StJosemariaDaily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F919D0281547618FCBDA0007 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StJosemariaDaily/Pods-StJosemariaDaily-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		45560E9E1E64E6D000125C82 /* Sources */ = {
@@ -287,12 +354,15 @@
 		};
 		45560EB81E64E6D000125C82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81352628EB04512A799DA683 /* Pods-StJosemariaDaily.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = U2S8UYC43S;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z74NJKY2E5;
 				INFOPLIST_FILE = StJosemariaDaily/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dev.StJosemariaDaily;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurtespinosa.inspireme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -300,12 +370,15 @@
 		};
 		45560EB91E64E6D000125C82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F919FDD01B4A24DBA1839A /* Pods-StJosemariaDaily.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = U2S8UYC43S;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z74NJKY2E5;
 				INFOPLIST_FILE = StJosemariaDaily/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dev.StJosemariaDaily;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurtespinosa.inspireme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

@@ -7,18 +7,24 @@
 //
 /*
 TODO:
- - add google ads: http://www.appcoda.com/google-admob-ios-swift/
+ / add google ads: http://www.appcoda.com/google-admob-ios-swift/
+ / icon from here: https://icons8.com/web-app/for/all/fire, https://makeappicon.com/
+ / generate screenshots: https://theapplaunchpad.com/dashboard/ios/?platform=ios&template=center&device=iphone_white#
  - format em dash
  - new one every viewappear?
  */
 
 import UIKit
+import GoogleMobileAds
+
 
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var bannerView: GADBannerView!
+    
     var list = [String] ()
-    var maxChar = 290
+    var maxChar = 230
     var minChar = 5
     @IBOutlet weak var text: UILabel!
     override func viewDidLoad() {
@@ -26,6 +32,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         //loadFile()
         generateNew()
+        bannerView.adUnitID = "ca-app-pub-8497979003651474/6995844541"
+        bannerView.rootViewController = self
+        bannerView.load(GADRequest())
         
     }
     func generateNew() {
